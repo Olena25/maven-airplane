@@ -10,7 +10,6 @@ import java.util.List;
 @Setter
 @ToString
 public class AirplaneService {
-//   private Comparator<Airplane> comparatorByFlightDistance = new ComparatorAirplanes();
 
     public List<Airplane> sortedAirplaneList(List<Airplane> airplanes) {
         List<Airplane> sortAirplane = new ArrayList<>(airplanes);
